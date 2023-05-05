@@ -1,0 +1,82 @@
+.facturas-historial-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.mesas-mozos{
+    width: 50%;
+    height: 100vh;
+    background-color:grey;
+    overflow-y: scroll;
+}
+
+.mesas-mozos::-webkit-scrollbar {
+    width: 10px;
+  }
+.mesas-mozos::-webkit-scrollbar-track {
+  background:#282A3A;
+}
+.mesas-mozos::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.mesa-factura{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mesa-factura-selected{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.ticket-mozos{
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+}
+
+.ticket-container-vermesas{
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.ticket-middle-container-vermesas{
+    width: 100%;
+    height: 83%;
+    overflow-y: scroll;
+}
+
+.ticket-middle-container-vermesas::-webkit-scrollbar{
+    display: none;
+}
+
+.ticket-middle-container-vermesas:last-child{
+    border-collapse: collapse;
+}

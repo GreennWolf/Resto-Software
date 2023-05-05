@@ -1,0 +1,288 @@
+.mesasPage-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #282A3A;
+}
+
+.arrow-container{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    background-color: #C69749;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-mesasPage{
+    transform: rotate(90deg);
+    margin-right: 5px;
+}
+
+
+/* Ticket */
+
+.ticket-container{
+    width: 40%;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.ticket-top{
+    height: 3%;
+    display: flex;
+    border-bottom:2px solid black ;
+}
+
+.ticket-top p{
+    width: calc(100% / 4);
+    border-right: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-top p:last-child{
+    border: none;
+}
+
+
+.ticket-middle-container{
+    width: 100%;
+    height: 93%;
+    overflow-y: scroll;
+}
+
+.ticket-middle-container::-webkit-scrollbar{
+    display: none;
+}
+
+.ticket-middle-container:last-child{
+    border-collapse: collapse;
+}
+
+.ticket-middle{
+    display: flex;
+    cursor: pointer;
+}
+
+.ticket-middle p{
+    width: calc(100% / 4);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ticket-middle p:last-child{
+    border-right: none;
+}
+
+.ticket-middle-selected{
+    background-color: red;
+    display: flex;
+    cursor: pointer;
+}
+
+.ticket-middle-selected p{
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+.ticket-bot{
+    display: flex;
+    height: 3.2%;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.ticket-bot p{
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.ticket-bot p:first-child{
+    border-right: 2px solid black;
+    margin-left: -1px;
+}
+
+.ticket-bot p:last-child{
+    border-left: 2px solid black;
+    margin-right: -2px;
+}
+
+.cant-ticket-inp{
+    width: 290px;
+    height: 12px;
+    text-align: center;
+}
+
+.cant-ticket-inp::placeholder{
+    text-align: center;
+}
+
+.mesas-options{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 15%;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.options{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% /5);
+    height: 100%;
+    background-color: grey;
+}
+
+/* Ticket Printing */
+
+.ticket-print{
+    padding-top: 10mm;
+    display: block;
+    font-size: 16px;
+    width: 70mm;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+
+.info-print-ticket{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-print-img{
+    width: 100%;
+}
+
+.ticket-print-container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.ticket-print-container p{
+    width: calc(100%/4);
+    text-align: center;
+}
+
+.ticket-print-container p:first-child{
+    margin-right:10px ;
+}
+
+.ticket-print-art{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.ticket-print-art p{
+    width: calc(100%/4);
+    text-align: center;
+}
+
+.ticket-print-art p:first-child{
+    margin-right:10px ;
+}
+
+.ticket-print-total{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ticket-print-msg{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media print {
+
+    .mesas-page-content{
+        display: none;
+    }
+
+    .ticket-print{
+        padding-top: 10mm;
+        display: block;
+        font-size: 14px;
+        width: 70mm;
+        padding-left: 5mm;
+        padding-right: 5mm;
+    }
+    
+    .info-print-ticket{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ticket-print-img{
+        width: 100%;
+    }
+    
+    .ticket-print-container{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .ticket-print-container p{
+        width: calc(100%/4);
+        text-align: center;
+    }
+    
+    .ticket-print-container p:first-child{
+        margin-right:10px ;
+    }
+    
+    .ticket-print-art{
+        width: 100%;
+        display: flex;
+    }
+    
+    .ticket-print-art p{
+        width: calc(100%/4);
+        text-align: center;
+    }
+    
+    .ticket-print-art p:first-child{
+        margin-right:10px ;
+    }
+    
+    .ticket-print-total{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .ticket-print-msg{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+}

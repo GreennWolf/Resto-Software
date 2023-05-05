@@ -1,0 +1,16 @@
+
+.admin-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    color: black;
+    border: 1px solid black;
+    margin-top: 5px !important;
+    padding: 10px;
+    cursor: pointer;
+}

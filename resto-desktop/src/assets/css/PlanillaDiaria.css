@@ -1,0 +1,78 @@
+.header-planilla{
+    width: 100%;
+    height: 70px;
+    background-color: #282A3A;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-planilla{
+    display: flex;
+}
+
+.table-planilla table{
+    height: 100%;
+}
+
+
+.table-planilla th{
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.table-planilla td{
+    width: 200px;
+    text-align: center;
+    height: 16px;
+}
+
+.table-planilla td input::placeholder{
+    text-align: center;
+}
+
+.gasto-tr{
+    cursor: pointer;
+}
+
+.gasto-tr:hover{
+    background-color: gray;
+}
+
+.gasto-tr-active{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #282A3A;
+}
+
+.options-planilla{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.option-planilla{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin-left: 10px;
+    color: white;
+    height: 45px;
+    background-color: #735F32;
+}

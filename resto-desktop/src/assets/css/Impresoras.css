@@ -1,0 +1,38 @@
+.header-printers{
+    width: 100%;
+    height: 40px;
+    background-color: #282A3A;
+    color: white;
+    text-align: center;
+}
+
+.body-printers{
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+}
+
+.container-printers{
+    margin-top: 30px;
+}
+
+.container-printers h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-printers{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    margin-left: 7px;
+    cursor: pointer;
+    background-color: rgb(38, 212, 38);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn-printers:hover{
+    background-color: rgb(18, 216, 18);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 40px -10px inset, rgba(0, 0, 0, 0.3) 0px 10px 20px -10px inset;
+}

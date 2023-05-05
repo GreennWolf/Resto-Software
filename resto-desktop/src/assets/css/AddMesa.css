@@ -1,0 +1,48 @@
+.header-addmesas{
+    width: 100%;
+    height: 40px;
+    background-color: #282A3A;
+    text-align: center;
+    color: white;
+}
+
+.h2-addmesa{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.inp-addmesa{
+    margin-top: 20px;
+    width: 300px;
+    height: 45px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.inp-addmesa::placeholder{
+    font-size: 35px;
+}
+
+.select-addmesa{
+    margin-top: 20px;
+    width: 300px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.addmesa-btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: rgb(38, 212, 38);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.addmesa-btn:hover{
+    background-color: rgb(18, 216, 18);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 40px -10px inset, rgba(0, 0, 0, 0.3) 0px 10px 20px -10px inset;
+}
