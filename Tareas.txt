@@ -1,0 +1,9 @@
+----Listas
+-Cuentas
+-Mesas
+-Categorias
+
+
+----Sistema
+--Impresion de a tandas
+--Movil ticket
