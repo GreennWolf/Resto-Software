@@ -1,6 +1,6 @@
 # Resto-software
 
-Software tanto dektop como mobile + backend para restaurantes
+Software tanto desktop como mobile + backend para restaurantes
 
 # Lenguages utilizados
 
